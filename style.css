@@ -1,0 +1,33 @@
+.nav{
+    position: fixed;
+    float: left;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    height: 100vmax;
+    padding: 10px;
+}
+.nav-link{
+    display: block;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid;
+    color: black;
+}
+.main-section{
+    margin-left: 260px;
+}
+
+@media(max-width: 300px){ 
+body{
+    background-color: black;
+}
+}
+
+body{
+   font-size: 15    px;
+   font-family: sans-serif;
+}
